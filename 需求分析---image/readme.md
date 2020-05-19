@@ -2,6 +2,6 @@
 
 -------------
 
-#<center> WE YOUNG！</center>
+<center ><font size='10'> WE YOUNG！</font></center>
 
 -------------
