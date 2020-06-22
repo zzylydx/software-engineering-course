@@ -1,7 +1,7 @@
 <?php
 	//session缓存
 	session_start();
-	//连接数据库11
+	//连接数据库
 	include ('mysql.php');
 	//获取用户信息
 	include ('getadmin.php');
