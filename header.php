@@ -1,4 +1,4 @@
-<div class="header" >   
+<div class="header">
 	<div class="container">
 		<div class="header-main">
 			<div class="top-nav">
@@ -140,6 +140,7 @@
 						            </ul>
 						        </li>
 						        <li><a href="contact.php">联系我们</a></li>
+                                <li><a href="contact.php">we chat</a></li>
 					        </ul>
 					    </div>
 					    <!--/.navbar-collapse-->
@@ -150,11 +151,12 @@
 			<div class="header-right">
 				<div class="search">
 					<div class="search-text">
-                        <form action="Search.php" method="post">
-                        <input class="serch_text" type="text" value="Search" name ="serch_text" required onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"/>
-					    <input class="serch" type="submit" value="" />
-                        </form>
+					    <input class="serch" type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"/>
 					</div>
+                    <form id="upload-form" action="upload.php" method="post" enctype="multipart/form-data" >
+                        　　　<input type="file" id="upload" name="upload" />
+                        　　　<input type="submit" value="上传图片" />
+                    </form>
 					<div class="cart box_1">
 						<a href="checkout.php">
 						<h3>
@@ -181,7 +183,7 @@
                      <div class="clearfix"> </div>
 				</div>
 			</div>
-		 <div class="clearfix"> </div>  
+		 <div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
