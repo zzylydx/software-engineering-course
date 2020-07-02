@@ -1,0 +1,62 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title></title>
+<style id="system" type="text/css">h1,h2,h3,h4,h5,h6,p,blockquote {    margin: 0;    padding: 0;}body {    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;    font-size: 13px;    line-height: 18px;    color: #737373;    margin: 10px 13px 10px 13px;}a {    color: #0069d6;}a:hover {    color: #0050a3;    text-decoration: none;}a img {    border: none;}p {    margin-bottom: 9px;}h1,h2,h3,h4,h5,h6 {    color: #404040;    line-height: 36px;}h1 {    margin-bottom: 18px;    font-size: 30px;}h2 {    font-size: 24px;}h3 {    font-size: 18px;}h4 {    font-size: 16px;}h5 {    font-size: 14px;}h6 {    font-size: 13px;}hr {    margin: 0 0 19px;    border: 0;    border-bottom: 1px solid #ccc;}blockquote {    padding: 13px 13px 21px 15px;    margin-bottom: 18px;    font-family:georgia,serif;    font-style: italic;}blockquote:before {    content:"C";    font-size:40px;    margin-left:-10px;    font-family:georgia,serif;    color:#eee;}blockquote p {    font-size: 14px;    font-weight: 300;    line-height: 18px;    margin-bottom: 0;    font-style: italic;}code, pre {    font-family: Monaco, Andale Mono, Courier New, monospace;}code {    background-color: #fee9cc;    color: rgba(0, 0, 0, 0.75);    padding: 1px 3px;    font-size: 12px;    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    border-radius: 3px;}pre {    display: block;    padding: 14px;    margin: 0 0 18px;    line-height: 16px;    font-size: 11px;    border: 1px solid #d9d9d9;    white-space: pre-wrap;    word-wrap: break-word;}pre code {    background-color: #fff;    color:#737373;    font-size: 11px;    padding: 0;}@media screen and (min-width: 768px) {    body {        width: 748px;        margin:10px auto;    }}</style><style id="custom" type="text/css"></style></head>
+<body marginheight="0"><h2>使用方法</h2>
+<ul>
+<li>安装wampserver</li>
+<li>启动wampserver,正常启动右下角wampserver图标应为绿色，左击打开phpmyadmin</li>
+<li>左侧栏中点击New</li>
+<li>右边为新建数据库页面，数据库名为shop，排序规则为utf8_general_ci，点击创建</li>
+<li>点击左侧新建的数据库shop，右边导入文件包中的shop.sql</li>
+<li>将wampserver安装目录下www目录中所有文件删除(wamp/www/)</li>
+<li>将shop文件夹复制到www目录下</li>
+</ul>
+<h2>推荐进入目录</h2>
+<ul>
+<li>若要进入主页请点击<a href="http://localhost/shop/index.php">主页面</a></li>
+<li>若要进入后台管理请点击<a href="http://localhost/shop/admin.php">后台管理页面</a></li>
+</ul>
+<h2>注意</h2>
+<ul>
+<li>初始登陆账号为123，密码为123</li>
+<li>上传图片时请不要命名图片含有中文字符</li>
+</ul>
+<h2>在线商城构成文档</h2>
+<ul>
+<li>addproduct.php:<a href="http://localhost/shop/addproduct.php">添加商品页面</a></li>
+<li>adduser.php:<a href="http://localhost/shop/adduser.php">添加用户页面</a></li>
+<li>admin.php:<a href="http://localhost/shop/admin.php">后台管理页面</a></li>
+<li>amani.php:<a href="http://localhost/shop/amani.php">阿玛尼男表页面</a></li>
+<li>amaniwoman.php:<a href="http://localhost/shop/amaniwoman.php">阿玛尼女表页面</a></li>
+<li>babi.php:<a href="http://localhost/shop/babi.php">芭比娃娃页面</a></li>
+<li>baoshijie.php:<a href="http://localhost/shop/baoshijie.php">乐高汽车模型页面</a></li>
+<li>checkout.php:<a href="http://localhost/shop/checkout.php">购物车结算页面</a></li>
+<li>contact.php:<a href="http://localhost/shop/contact.php">联系我们页面</a></li>
+<li>deleteproduct.php:<a href="http://localhost/shop/deleteproduct.php">删除商品页面</a></li>
+<li>deleteuser.php:<a href="http://localhost/shop/deleteuser.php">删除用户页面</a></li>
+<li>damen.php:<a href="http://localhost/shop/damen.php">男士背包页面</a></li>
+<li>dgwomen.php:<a href="http://localhost/shop/dgwomen.php">女士包袋页面</a></li>
+<li>emo.php:<a href="http://localhost/shop/emo.php">恶魔之眼页面</a></li>
+<li>footer.php:[通用底部加载标签]</li>
+<li>forlove.php:<a href="http://localhost/shop/forlove.php">挚爱一生页面</a></li>
+<li>getadmin.php:[获取用户信息方法]</li>
+<li>header.php:[通用头部加载标签]</li>
+<li>index.php:<a href="http://localhost/shop/index.php">主页面</a></li>
+<li>link.php:[通用外部文件加载标签]</li>
+<li>linkphp.php:<a href="http://localhost/shop/linkphp.php">通用商品页面</a></li>
+<li>login.php:<a href="http://localhost/shop/login.php">登陆页面</a></li>
+<li>logout.php:[退出登录方法]</li>
+<li>mysql.php:[数据库连接方法]</li>
+<li>product.php:<a href="http://localhost/shop/product.php">全商品页面</a></li>
+<li>signup.php:<a href="http://localhost/shop/signup.php">注册页面</a></li>
+<li>single.php:<a href="http://localhost/shop/single.php">卡地亚女表页面</a></li>
+<li>single2.php:<a href="http://localhost/shop/single2.php">卡地亚男表页面</a></li>
+<li>single3.php:<a href="http://localhost/shop/single3.php">古奇男士手提包页面</a></li>
+<li>single4.php:<a href="http://localhost/shop/single4.php">古奇女士手提包页面</a></li>
+<li>terms.php:<a href="http://localhost/shop/terms.php">条款页面</a></li>
+<li>tologin.php:[登陆方法]</li>
+<li>zhaohui.php:[找回密码方法]</li>
+<li>zhuce.php:[注册方法]
+</ul>
+</body></html>
